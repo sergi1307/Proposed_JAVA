@@ -10,13 +10,18 @@ public class propuesto19 {
 
         Scanner teclado = new Scanner(System.in);
         int numero;
-        int multiplo;
+        int multiplo = 0;
 
         System.out.println("Introduce el número: ");
         numero = teclado.nextInt(); teclado.nextLine();
 
         for (int i = 1; i <= numero; i++) {
-            System.out.println(3 + " x " + i + " = " + (i * 3));
+            if (i % 3 == 0) {
+                System.out.println("Múltiplo de 3: " + i);
+                multiplo++;
+            }
         }
+
+        System.out.println("Total de múltiplos: " + multiplo);
     }
 }
