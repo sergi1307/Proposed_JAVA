@@ -1,3 +1,8 @@
+/*
+Realiza un programa que muestre los números desde el 1 hasta un número N que se introducirá
+por teclado. Así como el sumatorio y producto de todos ellos
+*/
+
 import java.util.Scanner;
 
 public class propuesto8 {

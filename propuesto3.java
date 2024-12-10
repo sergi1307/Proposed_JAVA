@@ -1,3 +1,8 @@
+/*
+Realiza un programa que dado el precio de un artículo y el IVA a aplicar mostrará como resultado
+el precio con el iva aplicado. Siendo los IVAS posibles: 4 %, 10 % y 21 %.
+*/
+
 import java.util.Scanner;
 
 public class propuesto3 {

@@ -1,3 +1,7 @@
+/*
+Realiza un programa para leer un número positivo N y que calcule y visualice su factorial N!
+*/
+
 import java.util.Scanner;
 
 public class propuesto9 {

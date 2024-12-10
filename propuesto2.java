@@ -1,3 +1,8 @@
+/*
+Realiza un programa que lea 2 números y muestre el mensaje “Son iguales” o que muestre el
+número más grande.
+*/
+
 import java.util.Scanner;
 
 public class propuesto2 {

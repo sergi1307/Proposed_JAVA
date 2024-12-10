@@ -1,3 +1,7 @@
+/*
+Realiza un programa para calcular la suma de los cuadrados de los 5 primeros números naturales
+*/
+
 public class propuesto12 {
     public static void main(String[] args) {
 

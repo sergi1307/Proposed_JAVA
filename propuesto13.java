@@ -1,3 +1,9 @@
+/*
+Realiza un programa para leer una secuencia de números no nulos quefinalice con la introducción
+de un 0, y que obtenga e imprima si ha leído algún número negativo, cuantos positivos y cuantos
+negativos
+*/
+
 import java.util.Scanner;
 
 public class propuesto13 {

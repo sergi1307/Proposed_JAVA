@@ -1,3 +1,8 @@
+/*
+Realiza un programa para leer 10 números no nulos y que visualice un mensaje de si ha leído
+algún número negativo o no.(comprobación para un número menor)
+*/
+
 import java.util.Scanner;
 
 public class propuesto10 {

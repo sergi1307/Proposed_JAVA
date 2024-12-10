@@ -1,3 +1,8 @@
+/*
+Realiza una versión diferente del programa 1. En este programa se mostrarán las diferentes operaciones en un menú (donde se incluya la opción de Salir) para que el usuario elija la operación
+que quiere realizar. El usuario seleccionará la opción Salir para finalizar
+*/
+
 import java.util.Scanner;
 
 public class propuesto18 {

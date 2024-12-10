@@ -1,3 +1,7 @@
+/*
+Realiza un programa que sume independendientemente los números pares y los impares comprendidos entre 100 y 200
+*/
+
 public class propuesto16 {
     public static void main(String[] args) {
 

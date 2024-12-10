@@ -1,3 +1,8 @@
+/*
+Realiza un programa que calcule el valor de elevar (sin utilizar el operador de potencia) un
+número real, a, a un número exponente entero, b
+*/
+
 import java.util.Scanner;
 
 public class propuesto17 {

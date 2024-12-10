@@ -1,3 +1,8 @@
+/*
+Realiza un programa que muestre los números pares comprendidos entre el 1 y el 200, sumando
+de 2 en 2
+*/
+
 public class propuesto6 {
     public static void main(String[] args) {
 

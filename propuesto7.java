@@ -1,3 +1,8 @@
+/*
+Realiza un programa que muestre los números impares comprendidos entre el 1 y el 200 pero
+sumando de 1 a 1
+*/
+
 public class propuesto7 {
     public static void main(String[] args) {
 

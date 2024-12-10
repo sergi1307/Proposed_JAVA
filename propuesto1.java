@@ -1,3 +1,8 @@
+/*
+Realiza un programa que lea dos números, calcule y muestre el valor de su suma, resta, producto,
+potencia y división. (Ten en cuenta que no se puede dividir por cero) y
+*/
+
 import java.util.Scanner;
 
 public class propuesto1 {

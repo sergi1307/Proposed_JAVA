@@ -1,3 +1,8 @@
+/*
+Realiza un programa para leer una secuencia de notas (con valores que van de 0 a 10) que acaba
+con el valor -1 y nos dice si hay o no alguna nota de valor 10
+*/
+
 import java.util.Scanner;
 
 public class propuesto15 {
