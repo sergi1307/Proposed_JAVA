@@ -23,44 +23,37 @@ public class propuesto21 {
             dinero = teclado.nextInt(); teclado.nextLine();
         } while (dinero % 5 != 0);
 
-        for (int i = dinero; i > 0;) {
+        while (dinero > 0) {
             if (dinero >= 500) {
                 b500++;
-                i = i - 500;
                 dinero = dinero - 500;
             } else if (dinero >= 200) {
                 b200++;
-                i = i - 200;
                 dinero = dinero - 200;
             } else if (dinero >= 100) {
                 b100++;
-                i = i - 100;
                 dinero = dinero - 100;
             } else if (dinero >= 50) {
                 b50++;
-                i = i -50;
                 dinero = dinero - 50;
             } else if (dinero >= 20) {
                 b20++;
-                i = i - 20;
                 dinero = dinero - 20;
             } else if (dinero >= 10) {
                 b10++;
-                i = i - 10;
                 dinero = dinero - 10;
             } else if (dinero >= 5) {
                 b5++;
-                i = i - 5;
                 dinero = dinero - 5;
             }
         }
 
-        System.out.println("Billetes de 500: " + b500);
-        System.out.println("Billetes de 200: " + b200);
-        System.out.println("Billetes de 100: " + b100);
-        System.out.println("Billetes de 50: " + b50);
-        System.out.println("Billetes de 20: " + b20);
-        System.out.println("Billetes de 10: " + b10);
-        System.out.println("Billetes de 5: " + b5);
+        System.out.println("Billete/s de 500: " + b500);
+        System.out.println("Billete/s de 200: " + b200);
+        System.out.println("Billete/s de 100: " + b100);
+        System.out.println("Billete/s de 50: " + b50);
+        System.out.println("Billete/s de 20: " + b20);
+        System.out.println("Billete/s de 10: " + b10);
+        System.out.println("Billete/s de 5: " + b5);
     }
 }

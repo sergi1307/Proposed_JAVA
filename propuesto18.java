@@ -13,14 +13,6 @@ public class propuesto18 {
         int num1;
         int num2;
 
-        System.out.println("Introduce el número 1: ");
-        num1 = teclado.nextInt();
-        teclado.nextLine();
-
-        System.out.println("Introduce el número 2: ");
-        num2 = teclado.nextInt();
-        teclado.nextLine();
-
         do {
             System.out.println("1 - Calcular suma.");
             System.out.println("2 - Calcular resta.");
@@ -30,6 +22,14 @@ public class propuesto18 {
             System.out.println("0 - Salir");
 
             decision = teclado.nextInt();
+            teclado.nextLine();
+
+            System.out.println("Introduce el número 1: ");
+            num1 = teclado.nextInt();
+            teclado.nextLine();
+
+            System.out.println("Introduce el número 2: ");
+            num2 = teclado.nextInt();
             teclado.nextLine();
 
             switch (decision) {
