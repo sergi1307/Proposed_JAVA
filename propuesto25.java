@@ -1,14 +1,11 @@
-import java.util.Scanner;
-
 public class propuesto25 {
     public static void main(String[] args) {
 
-        Scanner teclado = new Scanner(System.in);
         int lineas;
         int asteriscos = 1;
 
         System.out.println("Introduce el número de veces que se imprimirá el (*): ");
-        lineas = teclado.nextInt();teclado.nextLine();
+        lineas = leer.leerEntero("Introduce el número de líneas: ");
 
         for (int i = 1; i <= lineas; i++) {
             int espacios = lineas - (asteriscos / 2);
