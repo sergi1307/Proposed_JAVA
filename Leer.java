@@ -1,7 +1,7 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 
-public class leer {
+public class Leer {
     private final static BufferedReader entradaConsola =
             new java.io.BufferedReader(new java.io.InputStreamReader(System.in));
 
