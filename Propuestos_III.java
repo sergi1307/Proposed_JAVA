@@ -51,4 +51,131 @@ public class Propuestos_III {
         System.out.println(frase);
     }
 
+    public static void ejercicio29() {
+
+        String nombre = Leer.leerTexto("Introduce tu nombre: ");
+        String genero;
+        int telefono = Leer.leerEntero("Introduce tu número de teléfono: ");
+        String ciudad = Leer.leerTexto("Introduce el nombre de la ciudad de vacaciones: ");
+        do {
+            genero = Leer.leerTexto("Introduce H/M: ");
+        } while (!genero.equals("H") && !genero.equals("M"));
+
+        if (genero.equals("H")) {
+            System.out.println("Hola! Soy el viajero " + nombre +". Has llamado al " + telefono + "y ahora no estoy en casa porque estoy en " + ciudad + " de vacaciones!!!");
+        } else {
+            System.out.println("Hola! Soy la viajera " + nombre +". Has llamado al " + telefono + " y ahora no estoy en casa porque estoy en " + ciudad + " de vacaciones!!!");
+        }
+    }
+
+    public static void ejercicio30() {
+            String frase = Leer.leerTexto("Introduce una frase: ");
+            String vocal1 = Leer.leerTexto("Introduce la primera vocal: ");
+            String vocal2 = Leer.leerTexto("Introduce la segunda vocal: ");
+            int longitud;
+            StringBuilder resultat = new StringBuilder();
+
+            System.out.println(frase.replace(vocal1, vocal2));
+
+            longitud = frase.length();
+
+            for (int i = 0; i < longitud; i++) {
+                if (Character.toString(frase.charAt(i)).equals(vocal1)) {
+                    resultat.append(vocal2);
+                } else {
+                    resultat.append(frase.charAt(i));
+                }
+            }
+            System.out.println(resultat);
+        }
+
+    public static void ejercicio31() {
+        String palabra = Leer.leerTexto("Introduce una palabra: ");
+        String frase = Leer.leerTexto("Introduce una frase: ");
+        String palabraBuscar = Leer.leerTexto("Que palabra de la frase quieres cambiar: ");
+        String resultado = frase.replace(palabraBuscar, palabra);
+
+        System.out.println(resultado);
+    }
+
+    public static void ejercicio32() {
+        String frase = Leer.leerTexto("Introduce una frase: ");
+        String fraseReves = "";
+        int longitud = frase.length();
+
+        for ( int i = longitud - 1; i >= 0; i--) {
+            fraseReves += frase.charAt(i);
+        }
+        System.out.println(fraseReves);
+
+        if (frase.equals(fraseReves)) {
+            System.out.println("Es capicúa.");
+        } else System.out.println("No es capicúa.");
+    }
+
+    public static void ejercicio33() {
+        String cadena = Leer.leerTexto("Introduce una cadena de texto: ").toLowerCase();
+        boolean a = false;
+        boolean e = false;
+        boolean i = false;
+        boolean o = false;
+        boolean u = false;
+        int longitud = cadena.length();
+
+        for (int j = 0; j < longitud; j++) {
+            if (cadena.charAt(j) == 'a') {
+                a = true;
+            } else if (cadena.charAt(j) == 'e') {
+                e = true;
+            } else if (cadena.charAt(j) == 'i') {
+                i = true;
+            } else if (cadena.charAt(j) == 'o') {
+                o = true;
+            } else if (cadena.charAt(j) == 'u') {
+                u = true;
+            }
+        }
+
+        if (a && e && i && o && u) {
+            System.out.println("Todas las vocales están presentes.");
+        } else System.out.println("No están todas las vocales presentes.");
+
+
+    }
+
+    public static void ejercicio34() {
+        String frase = Leer.leerTexto("Introduce una frase: ");
+        String fraseLimpia = frase.trim();
+        System.out.println("La frase limpia: " + fraseLimpia);
+        int posIni = Leer.leerEntero("Introduce la posición inicial: ");
+        int posFin = Leer.leerEntero("Introduce la posición final: ");
+
+        if (posIni < 0 || posFin > fraseLimpia.length() || posIni >= posFin) {
+            System.out.println("Las posiciones no son válidas.");
+        } else {
+            String subcadena = fraseLimpia.substring(posIni, posFin);
+            System.out.println("Subcadena: " + subcadena);
+        }
+    }
+
+    public static void ejercicio35() {
+        String cadena = Leer.leerTexto("Introduce la cadena de digitos: ");
+        int longitud = cadena.length();
+        int digito = 0;
+        int noDigito = 0;
+        boolean todoDigitos = false;
+
+        for (int i = 0; i < longitud; i++) {
+            char caracter = cadena.charAt(i);
+            if (Character.isDigit(caracter)) {
+                digito += 1;
+            } else {
+                noDigito += 1;
+            }
+        }
+
+        if (noDigito == 0) {
+            System.out.println("La cadena " + cadena + " es de digitos.");
+        } else System.out.println("La cadena " + cadena + " no es de digitos.");
+    }
 }

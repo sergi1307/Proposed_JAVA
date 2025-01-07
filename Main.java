@@ -2,7 +2,6 @@ public class Main {
     public static void main(String[] args) {
 
         int opc;
-        boolean ok=false;
 
         do {
             System.out.println("PROPUESTOS I - 1 A 18");
@@ -86,6 +85,36 @@ public class Main {
                     break;
                 case 25:
                     Propuestos_II.ejercicio25();
+                    break;
+                case 26:
+                    Propuestos_III.ejercicio26();
+                    break;
+                case 27:
+                    Propuestos_III.ejercicio27();
+                    break;
+                case 28:
+                    Propuestos_III.ejercicio28();
+                    break;
+                case 29:
+                    Propuestos_III.ejercicio29();
+                    break;
+                case 30:
+                    Propuestos_III.ejercicio30();
+                    break;
+                case 31:
+                    Propuestos_III.ejercicio31();
+                    break;
+                case 32:
+                    Propuestos_III.ejercicio32();
+                    break;
+                case 33:
+                    Propuestos_III.ejercicio33();
+                    break;
+                case 34:
+                    Propuestos_III.ejercicio34();
+                    break;
+                case 35:
+                    Propuestos_III.ejercicio35();
                     break;
             }
         } while (opc != 0);
